@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Philosopher", 'Courier New', Courier, monospace;
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
