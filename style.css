@@ -7,6 +7,7 @@
 body {
     font-family: "Philosopher", 'Courier New', Courier, monospace;
     margin: 0;
+    line-height: 1.6;
     }
 /* ================================= 
   Base Layout Styles
@@ -15,16 +16,12 @@ body {
 ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     }
 
 a {
     text-decoration: none;
-    }
-    main-nav a {
-      text-align: center;
-      display: block;
-      padding: 10px 15px;
+    color: black;
     }
 
   .main-nav a:hover {
@@ -33,12 +30,18 @@ a {
 
   .main-header {
       display: flex;
+      background: rgba(0,0,0,0.6);
     }
 
     .main-nav {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: nowrap;
+        margin: auto;
     }
-    
+    .main-nav li {
+        margin: auto;
+        font-size: 1.9rem;
+        
+    }
   }
