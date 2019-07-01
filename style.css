@@ -2,20 +2,43 @@
 
 *{
     box-sizing: border-box;
-}
+    }
 
 body {
     font-family: "Philosopher", 'Courier New', Courier, monospace;
     margin: 0;
-}
+    }
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
+    }
 
 a {
     text-decoration: none;
-}
+    }
+    main-nav a {
+      text-align: center;
+      display: block;
+      padding: 10px 15px;
+    }
 
+  .main-nav a:hover {
+      color: #093a58;
+    }
 
+  .main-header {
+      display: flex;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+  }
