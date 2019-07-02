@@ -8,6 +8,18 @@ body {
     font-family: "Philosopher", 'Courier New', Courier, monospace;
     margin: 0;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
+    .backround {
+     background-color: rgba(248,248,255, 05);
+      
+    }
+
+    .row {
+      flex-grow: 1;
     }
 /* ================================= 
   Base Layout Styles
@@ -24,14 +36,26 @@ a {
     color: black;
     }
 
+  .main {
+    border: 0.1rem solid black;
+    border-radius: 0.4rem;
+    margin: 0.7rem;
+    padding: 0.6rem;
+
+  }
+
+  h2 {
+    text-align: center;
+  }
+
   .main-nav a:hover {
       color: #093a58;
     }
 
   .main-header {
-      display: flex;
-      background: rgba(0,0,0,0.6);
+      background: rgba(192,192,192, 0.6);
     }
+    
 
     .main-nav {
         display: flex;
@@ -44,4 +68,36 @@ a {
         font-size: 1.9rem;
         
     }
+
+    .col {
+      border: 0.09rem solid black;
+      border-radius: 0.3rem;
+      padding: 0.6rem;
+      margin: 0.3rem;
+    }
+
+    .pic {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+    }
+
+    .pic-1,
+    .pic-2,
+    .pic-3 {
+      display: flex;
+      flex-grow:1;
+      flex-wrap: wrap;
+      flex-grow: 1;
+      max-width:100%;
+    }
+    .main-footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0,0,0,0.6);
+      padding: 1.6rem;
+    }
+
   }
