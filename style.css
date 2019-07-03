@@ -61,6 +61,7 @@ body {
         flex-direction: column;
         flex-wrap: nowrap;
         margin: auto;
+        display: none;
     }
     .main-nav li {
         margin: 0.05rem auto;
@@ -121,8 +122,20 @@ body {
       display: block;
       background-color: black;
       margin: 8px auto;
+      transition: all 0.9s ease-in-out;
+      -moz-transition: all 0.9s ease-in-out;
+      -webkit-transition: all 0.9s ease-in-out;
+      -o-transition: all 0.9s ease-in-out;
 
     }
+
+    .hamburger {
+      padding: 0.5rem;
+    }
+    .hamburger:hover {
+      cursor: pointer;
+    }
+
 
 
   
