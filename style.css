@@ -69,6 +69,13 @@ a {
         
     }
 
+    .meniu {
+      width: 50%;
+      height: 50%;
+      margin: auto;
+      
+    }
+
     .col {
       border: 0.09rem solid black;
       border-radius: 0.3rem;
