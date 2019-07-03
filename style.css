@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700,700i&display=swap');
+
 
 *{
     box-sizing: border-box;
     }
 
 body {
-    font-family: "Philosopher", 'Courier New', Courier, monospace;
+    font-family: "Philosopher",  sans-serif, 'Courier New', Courier, monospace;
     margin: 0;
     line-height: 1.6;
     display: flex;
